@@ -15,8 +15,7 @@ using Vector = Eigen::VectorXd;
 
 // https://eigen.tuxfamily.org/dox-devel/group__LeastSquares.html#title2
 Vector least_squares(const Matrix& a, const Matrix& b) {
-	Vector v = (a.transpose() * a).ldlt().solve(b);
-	return v;
+	return (a.transpose() * a).ldlt().solve(b);
 }
 
 PYBIND11_MODULE(metnum, m) {
