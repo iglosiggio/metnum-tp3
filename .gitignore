@@ -1,1 +1,45 @@
-metnum.so
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+out/
+__pycache__/
+.ipynb_checkpoints/
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDEs
+.idea/
+.vs/
+
+# CMake
+cmake-build-*/
+
+# Experimentation
+experimental-data
