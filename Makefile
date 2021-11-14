@@ -21,4 +21,4 @@ grupo13-tp3.zip:
 clean:
 	rm -f metnum.so grupo13-tp3.zip
 
-.PHONY: all clean
+.PHONY: all clean grupo13-tp3.zip
